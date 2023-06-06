@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonts, style and Icons: google, fontawesome, bootstrap -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+    <!--My stylesheets-->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./script.js"></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title> Cuse Data Challenge</title>
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+            </div>
+        </div>
+         <!--Logo Faq Section-->
+        <div class="header-main container-fluid">
+            <!--Logo-->
+            <h1 class="logo col-md-4 col-sm-4"><a href="index.html"><img id="logo" src="#" alt="">SYRACUSE VACANT PROPERTIES</a></h1>
+            <!--Faq Section Menu-->
+            <div class="info col-md-12 col-sm-12">
+                <ul class="menu-top navbar-right hidden-xs">
+                    <li class="divider"><a href="index.html">Home</a></li>
+                    <li class="divider"><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--//info-->
+        </div>
+        
+    </header>
+     <!--Faqs and Logo section ends-->
+     <nav class="navbar main-nav navbar-expand-md" style="font-style: italic;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+           aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOUSING DATA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RESOURCES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NEWS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 order-3">
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i> GPS Coordinate of </span>
+                <h3>Syracuse, NY <small><a href="/country-united-states/">United States</a></small></h3>
+                <p><b>Central address:</b> 506 W Manlius St, Syracuse, NY 13057, USA</p>
+                <p><b>Elevation:</b> 133.261<br><b>Time Zone: </b> <a href="http://www.worldstandardtime.com/timezone-america-toronto" target="_blank">America/Toronto</a></p>
+                <p><b>Latitude:</b> 43° 3' 55.242'' N<br><b>Longitude: </b> 76° 4' 42.7188'' W</p>
+            
+                <div class="ongmap">
+                    <a href="https://maps.google.com/maps?q=43.065345,-76.078533&amp;ll=43.075345,-76.078533&amp;t=k&amp;hl=en&amp;z=10" target="_blank" rel="nofollow" title="Satellite map of East Syracuse, United States"><i class="fa fa-map-marker" aria-hidden="true"></i> Satellite map of East Syracuse, United States</a>
+                </div>
+            </div>
+            <div class="col-lg-8 order-2">
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqA9iTqfaKlVjpIHBgInFzlJMmH5ZmiUY" defer></script>
+                <div id="map"></div>
+                <!--google maps-->
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqA9iTqfaKlVjpIHBgInFzlJMmH5ZmiUY&callback=initMap&v=weekly" defer></script>
+            </div>
+            <div class="col-lg-2 order-1">
+                <h4> GPS coordinate of</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th>Latitude</th><td>43.065345</td>
+                            </tr>
+                            <tr>
+                                <th>Longitude</th><td>-76.078533</td>
+                            </tr>
+                            <tr><th>Country</th><td>USA</td>
+                            </tr>
+                            <tr> <th>Country Code</th><td>1</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+  
+
+    <footer class="footer-main fixed-bottom">
+        <!-- Copyright Footer -->
+        <footer class="bg-dark text-center text-white">
+        
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class="fa fa-facebook-f"></i
+                ></a>
+            
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class="fa fa-twitter"></i
+                ></a>
+            
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class="fa fa-google"></i
+                ></a>
+            
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 All Rights Reserved.
+        </div>
+        <!-- Copyright -->
+        </footer>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<!--my script-->
+</body>

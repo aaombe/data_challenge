@@ -1,0 +1,76 @@
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .header .top-bar {
+    background: #F76900 ;
+    height: 40px;
+  }
+  
+  .header .header-main {
+    padding: 20px 0;
+  }
+  
+  .header h1.logo {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .header .menu-top {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: right;
+  }
+  
+  .header .menu-top li {
+    list-style: none;
+    float: left;
+    font-size: 11px;
+    font-family: 'open sans', arial, sans-serif;
+  }
+  
+  .header .menu-top li:last-child a {
+    padding-right: 0;
+  }
+  
+  .header .menu-top li.divider a {
+    border-right: 1px solid #c3c3c3;
+  }
+  
+  .header .menu-top li a {
+    display: inline-block;
+    color: #777777;
+    padding: 0px 10px;
+  }
+  
+  .header .menu-top li a:hover {
+    color: #6091ba;
+  }
+  /* Faqs Logo style end */
+  
+  .main-nav {
+    background-color: #000E54 !important;
+    margin-bottom: 30px;
+  }
+/* footer css */
+.footer-main{
+    padding-top: 90px;
+    margin-top: 50px;
+}
+  
